@@ -56,6 +56,42 @@ ________________________________________
 •	Achievements: SmartLeaf demonstrates high potential for practical applications in agriculture by identifying mango leaf diseases with high accuracy.
 •	Challenges: Slight overfitting observed; potential improvement through regularization and more diverse data.
 •	Future Work: Experiment with transfer learning using pre-trained models, which could enhance the model’s accuracy and robustness.
+
+Mango Leaf Disease Classifier with MLOps Integration 🌱
+This project is an end-to-end solution for detecting diseases in mango leaves, leveraging Deep Learning and MLOps practices. It includes a robust Convolutional Neural Network (CNN) model, a user-friendly interface, and a clear deployment pipeline. The classifier identifies eight classes, including Anthracnose, Bacterial Canker, Die Back, Powdery Mildew, and more, enabling early disease detection and improved agricultural outcomes.
+
+🚀 Features
+Deep Learning Model: Built with TensorFlow and Keras, the CNN achieves high accuracy in classifying mango leaf diseases.
+User Interface (UI): Implemented using Gradio, allowing users to upload images and receive instant predictions.
+MLOps Integration: Follows MLOps principles for efficient model management and deployment, ensuring scalability and maintainability.
+Deployment: Includes clear steps for deploying the model to Hugging Face Spaces or similar platforms.
+🛠️ Technologies Used
+Frameworks: TensorFlow, Keras
+Libraries: NumPy, Pandas, Matplotlib, Seaborn
+UI Development: Gradio
+MLOps Tools: Model versioning and deployment practices
+Deployment: Hugging Face Spaces
+📂 Project Workflow
+Data Preprocessing: Cleaned and augmented data to improve model robustness.
+Model Development: Built a CNN architecture with Conv2D, MaxPooling, BatchNormalization, and Dense layers.
+Model Evaluation: Achieved high accuracy using metrics like sparse categorical cross-entropy.
+UI Integration: Developed a Gradio interface for user interaction.
+Deployment:
+Exported the model as a .h5 file.
+Set up a FastAPI backend for inference.
+Deployed on Hugging Face Spaces with a Gradio-based interface.
+🖼️ User Interface
+Users can upload an image of a mango leaf, and the system will classify it into one of the eight predefined categories. The interface is intuitive, requiring no technical expertise.
+
+🔄 Deployment Steps
+Export the trained model as model.h5.
+Create a Python app.py script to load the model and define the Gradio interface.
+Push the repository to GitHub and link it to Hugging Face Spaces.
+Deploy using the Hugging Face interface and test the public link.
+🌟 Benefits
+Efficiency: Streamlined process for disease detection.
+Scalability: Deployable on cloud platforms for broader accessibility.
+User-Friendliness: Intuitive interface for non-technical users.
 ________________________________________
 7. Conclusion
 Smart Leaf effectively combines deep learning with agriculture, providing a promising solution to support farmers and agricultural specialists in monitoring plant health. With further refinements, this model can become a valuable tool in crop disease management, contributing to sustainable and technology-driven farming practices.
